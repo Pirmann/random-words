@@ -40,4 +40,8 @@ class Sentence
 
         return $this->sentence;
     }
+
+    public function getRandomUpperSentence(): string{
+        return strtoupper($this->getRandomSentence());
+    }
 }
