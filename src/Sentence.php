@@ -33,7 +33,7 @@ class Sentence
 
             $result = shuffle($words);
 
-            if(result === true){
+            if($result === true){
                 return implode(" ", $words);
             }
         }
